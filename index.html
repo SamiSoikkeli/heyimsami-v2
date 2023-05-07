@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sami Soikkeli :: Creative Frontend Developer</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style/main.css" />
+	</head>
+	<body onload="startClock()">
+		<div id="cursor">
+			<div class="cursor__circle"></div>
+		</div>
+		<!-- Header -->
+		<header>
+			<nav class="nav">
+				<p class="nav__tagline">
+					handcrafting stunning online experiences that enhances and
+					speaks volumes about brand's online presence.
+				</p>
+				<h3 class="nav__disclaimer">temporary website</h3>
+				<div class="nav__availability-wrapper">
+					<a
+						href="mailto:hello.heyimsami@gmail.com"
+						class="nav__availability"
+					>
+						<span class="nav__marquee-wrapper">
+							<span class="nav__marquee">
+								<span class="nav__marquee-text">
+									available for projects worldwide
+								</span>
+								<span class="nav__marquee-text">
+									available for projects worldwide
+								</span>
+							</span>
+						</span>
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Content -->
+		<main class="content">
+			<section class="hero">
+				<h1 class="hero__header">
+					independent creative frontend developer & designer working
+					with agencies and brands.
+				</h1>
+				<div class="hero__expertise">
+					<p class="hero__skill">branding</p>
+					<p class="hero__skill">web design</p>
+					<p class="hero__skill">web development</p>
+					<p class="hero__skill">3d</p>
+				</div>
+				<a
+					href="mailto:hello.heyimsami@gmail.com"
+					class="hero__cta"
+					cursor-class="greeting"
+					>(hello.heyimsami@gmail.com)</a
+				>
+				<p class="hero__cta-tagline">
+					have a project in mind? feel free to reach out at the email
+					above.
+				</p>
+			</section>
+			<section class="works">
+				<h2 class="works__header">latest works</h2>
+				<ul class="works__items">
+					<li class="works__item is-disabled"><a href="#">TBA</a></li>
+				</ul>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer__upper">
+				<ul class="footer__socials">
+					<li class="footer__link" cursor-class="subtle">
+						<a
+							href="https://github.com/SamiSoikkeli"
+							target="_blank"
+							>github</a
+						>
+					</li>
+					<li class="footer__link" cursor-class="subtle">
+						<a href="https://dribbble.com/heyimsami" target="_blank"
+							>dribbble</a
+						>
+					</li>
+					<li class="footer__link" cursor-class="subtle">
+						<a
+							href="https://www.linkedin.com/in/heyimsamisoikkeli/"
+							target="_blank"
+							>linkedin</a
+						>
+					</li>
+					<li class="footer__link" cursor-class="subtle">
+						<a href="mailto:hello.heyimsami@gmail.com">email</a>
+					</li>
+				</ul>
+				<p class="footer__time">
+					local time <span id="current-time"></span>
+				</p>
+			</div>
+			<div class="footer__below">
+				<p class="footer__copyright">© https://heyimsami.com/</p>
+				<p class="footer__location">
+					based in finland, working worldwide.
+				</p>
+			</div>
+		</footer>
+
+		<script defer src="./script/main.js"></script>
+	</body>
+</html>
