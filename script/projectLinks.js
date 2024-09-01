@@ -1,4 +1,92 @@
 const projectLinks = {
+	"img21.webp": {
+		en: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "Visit Website",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "View Source Code",
+			},
+		],
+		jp: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "ウェブサイトを見る",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "ソースコードを見る",
+			},
+		],
+	},
+	"img22.webp": {
+		en: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "Visit Website",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "View Source Code",
+			},
+		],
+		jp: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "ウェブサイトを見る",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "ソースコードを見る",
+			},
+		],
+	},
+	"img23.webp": {
+		en: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "Visit Website",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "View Source Code",
+			},
+		],
+		jp: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "ウェブサイトを見る",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "ソースコードを見る",
+			},
+		],
+	},
+	"img24.webp": {
+		en: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "Visit Website",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "View Source Code",
+			},
+		],
+		jp: [
+			{
+				url: "https://run-essentials.heyimsami.com/",
+				text: "ウェブサイトを見る",
+			},
+			{
+				url: "https://github.com/SamiSoikkeli/run-essentials",
+				text: "ソースコードを見る",
+			},
+		],
+	},
 	"img11.webp": {
 		en: [
 			{ url: "https://lumikko.studio", text: "Visit Website" },
